@@ -1,0 +1,26 @@
+# Automated IOC Enrichment Platform — Sample IOC File
+# Lines starting with # are ignored
+# Supports: IP addresses, domains, URLs, MD5/SHA1/SHA256 hashes
+
+# === Known Malicious IPs (for testing) ===
+185.220.101.45
+45.142.212.100
+194.165.16.4
+
+# === Suspicious Domains ===
+malware-c2.ru
+phishing-login-secure.com
+update-windows-patch.net
+
+# === Malicious URLs ===
+http://malware-c2.ru/payload.exe
+https://phishing-login-secure.com/account/verify
+
+# === File Hashes ===
+d41d8cd98f00b204e9800998ecf8427e
+44d88612fea8a8f36de82e1278abb02f8b5571ac
+275a021bbfb6489e54d471899f7db9d1663fc695b2a9e76d2c0a81e8e513c7a8
+
+# === Benign IPs (should be safe) ===
+8.8.8.8
+1.1.1.1
